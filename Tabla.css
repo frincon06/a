@@ -1,0 +1,97 @@
+form {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    margin-right: 10px;
+}
+
+button[type="submit"] {
+    padding: 5px 10px;
+    background-color: #fab112;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #fab112;
+}
+
+/* Estilos para la tabla de resultados */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #fab112;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Estilos para el título */
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1em;
+  }
+  
+  /* Estilos para el botón */
+  button {
+    background-color: #fab112;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 1em;
+    border-radius: 0.3em;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  /* Estilos para el enlace dentro del botón */
+  button a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Cambiar color del botón cuando se pasa el cursor por encima */
+  button:hover {
+    background-color: #e9c474;
+  }
+  
+  /* Ocultar botón si no se ha iniciado sesión */
+  div {
+    text-align: center;
+  }
+  
+  .logout-button {
+    display: none;
+ }
+ 
+ .logout-button.show {
+    display: block;
+ }
+ 
+  
+  
